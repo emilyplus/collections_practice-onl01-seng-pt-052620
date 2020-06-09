@@ -6,8 +6,7 @@ end
 
 def sort_array_des(array)
   array = [25, 7, 14]
-  array.sort! do |a, b|
-    a <=> b
+  array.sort! { |a, b| a <=> b }
   end
 end
 
