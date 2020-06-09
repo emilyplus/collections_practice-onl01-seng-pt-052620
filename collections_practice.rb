@@ -10,6 +10,6 @@ end
 
 
 def sort_array_char_count(array)
-  array = ["foo", "test", "boink")
+  array = ["foo", "test", "boink"]
   array.sort { |a,b| a.length <=> b.length }
 end
