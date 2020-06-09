@@ -6,6 +6,6 @@ end
 
 def sort_array_des(array)
   array = [25, 7, 14]
-  array.reverse.sort
+  array.sort!
 end
 
