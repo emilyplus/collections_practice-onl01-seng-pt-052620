@@ -5,8 +5,6 @@ end
 
 
 def sort_array_desc(array)
-  i = 0
-  while i < array[i]
-  return i
+  array.sort {|a, b| b.size <=> a.size} 
 end
 
