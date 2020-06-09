@@ -11,5 +11,5 @@ end
 
 def sort_array_char_count(array)
   array = ["foo", "test", "boink"]
-  array.sort
+  array.sort { |a, b| a.size <=> b.size }
 end
