@@ -5,9 +5,9 @@ def sort_array_asc(array)
 end
 
 def sort_array_des(array)
-  array = [25, 7, 1]
+  array = [25, 7, 14]
   array.sort do |a, b|
-    b <=> a
+    b < a
   end
 end
 
